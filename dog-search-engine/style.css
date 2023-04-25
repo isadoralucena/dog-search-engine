@@ -1,0 +1,28 @@
+body{
+    background-color: #F1F8FF;
+}
+.bg-footer{
+    background-color: #D0E6FF;
+}
+.w-logo{
+    width: 130px;
+}
+.w-2-logo{
+    width: 100px;
+}
+
+@media (max-width: 768px) {
+    .row a, .row a>i{
+        padding: 0;
+    }
+}
+p{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 3%;
+}
+h5:hover{
+    text-decoration: underline;
+}
+
