@@ -10,14 +10,14 @@
     <title>Buscador Cachorro</title>
 </head>
 <body class="d-flex flex-column min-vh-100">
-    <div class="container">
+    <main class="container">
         <div class="row">
-            <div class="col-8">
-                <div class="row justify-content-center mt-3">
+            <section class="col-md-8">
+                <header class="row justify-content-center mt-3">
                     <img onclick="window.location.href='index.html'" class="w-2-logo" src="img/logo.png">
-                </div>
+                </header>
 
-                <div class="my-3  input-group"> 
+                <div class="my-3 input-group"> 
                     <div class="input-group-prepend">
                         <button onclick="window.location.href='index.html'" class="btn btn-outline-secondary" type="button">
                             <i class="fa-solid fa-magnifying-glass"></i>
@@ -30,39 +30,61 @@
                         </button>
                     </div>
                 </div>
-                <div class="row text-center mb-5">
+                <section class="row text-center mb-5">
                     <a href="" class="col">Todas</a>
                     <a href="" class="col">Imagens</a>
                     <a href="" class="col">Shopping</a>
                     <a href="" class="col">Notícias</a>
                     <a href="" class="col">Vídeos</a>
-                </div>
-                
-                <div class="row my-3">
+                </section>
+            </section>       
+            <section class="col-md-8">     
+                <article class="row my-3">
                     <h5>Lorem Ipsum</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quae expedita delectus, et inventore omnis. Culpa iusto, optio consequatur qui ullam repellendus magnam sunt, cupiditate iure laudantium nisi quibusdam. Tenetur!</p>
+                </article>
+            </section>    
+            <section class="col-4 my-auto">
+                <div class="row w-75 mb-3 mx-auto">
+                    <img class="img-fluid" src="img/dummy_ads/cat_1.jpg">
                 </div>
-                <div class="row my-3">
+            </section>
+            <section class="col-md-8"> 
+                <article class="row my-3">
                     <h5>Lorem Ipsum</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quae expedita delectus, et inventore omnis. Culpa iusto, optio consequatur qui ullam repellendus magnam sunt, cupiditate iure laudantium nisi quibusdam. Tenetur!</p>
+                </article>
+            </section>
+            <section class="col-4 my-auto">
+                <div class="row w-75 mx-auto">
+                    <img class="img-fluid" src="img/dummy_ads/cat_2.jpg">
                 </div>
-                <div class="row my-3">
+            </section>
+            <section class="col-md-8"> 
+                <article class="row my-3">
                     <h5>Lorem Ipsum</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quae expedita delectus, et inventore omnis. Culpa iusto, optio consequatur qui ullam repellendus magnam sunt, cupiditate iure laudantium nisi quibusdam. Tenetur!</p>
-                </div>
-                <div class="row my-3">
+                </article>
+            </section>
+            <section class="col-md-8"> 
+                <article class="row my-3">
                     <h5>Lorem Ipsum</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quae expedita delectus, et inventore omnis. Culpa iusto, optio consequatur qui ullam repellendus magnam sunt, cupiditate iure laudantium nisi quibusdam. Tenetur!</p>
-                </div>
-                <div class="row my-3">
+                </article>
+            </section>
+            <section class="col-md-8"> 
+                <article class="row my-3">
                     <h5>Lorem Ipsum</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quae expedita delectus, et inventore omnis. Culpa iusto, optio consequatur qui ullam repellendus magnam sunt, cupiditate iure laudantium nisi quibusdam. Tenetur!</p>
-                </div>
-                <div class="row my-3">
+                </article>
+            </section>
+            <section class="col-md-8"> 
+                <article class="row my-3">
                     <h5>Lorem Ipsum</h5>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse quae expedita delectus, et inventore omnis. Culpa iusto, optio consequatur qui ullam repellendus magnam sunt, cupiditate iure laudantium nisi quibusdam. Tenetur!</p>
-                </div>
-            
+                </article>
+            </section>
+            <section class="col-md-8"> 
                 <nav aria-label="Page navigation example">
                     <ul class="pagination justify-content-center">
                     <li class="page-item"><a class="page-link" href="#">Previous</a></li>
@@ -72,21 +94,15 @@
                     <li class="page-item"><a class="page-link" href="#">Next</a></li>
                     </ul>
                 </nav>
-            </div>
-            <div class="col-4">
-                <div class="w-75 mb-3">
-                    <img class="img-fluid" src="img/dummy_ads/cat_1.jpg">
-                </div>
-                <div class="w-75">
-                    <img class="img-fluid" src="img/dummy_ads/cat_2.jpg">
-                </div>
-            </div>
+            </section>
         </div>
-    </div>
+    </main>
     <footer class="mt-auto bg-footer">
         <div class="container my-3">
             <p class="float-start">&copy; Cachorro</p>
-            <p class="float-end">(77)5 5555-5555</p>
+            <address>
+                <p class="float-end">(77)5 5555-5555</p>
+            </address>
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
