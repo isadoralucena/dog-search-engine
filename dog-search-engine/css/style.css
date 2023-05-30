@@ -10,14 +10,9 @@ body{
 .w-2-logo{
     width: 110px;
 }
-
-p{
-    text-overflow: ellipsis;
-    overflow: hidden;
-    white-space: nowrap;
-    height: 3%;
+a{
+    text-decoration: none;
 }
-h5:hover{
+a:hover{
     text-decoration: underline;
 }
-
